@@ -8,11 +8,12 @@
   ko.bindingHandlers.bindHtml = {
     update: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
       ko.unwrap(valueAccessor());
-
-      var children = element.children;
-      for (var i = 0; i < children.length; i++) {
-        ko.applyBindings(bindingContext.$data, children[i]);
-      }
+      ko.applyBindingsToDescendants(bindingContext.$data, element);
     }
+  };
+
+  ko.bindingHandlers.bindHtml.preprocess = function(value, name, addBinding) {
+      addBinding('html', value);
+      return value;
   };
 }));
