@@ -1,0 +1,32 @@
+{
+  "name": "knockout-bind-html",
+  "main": "knockout-bind-html.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/calvinwoo/knockout-bind-html",
+  "authors": [
+    "Calvin Woo <calvinwoo32@gmail.com>"
+  ],
+  "description": "A custom binding for KnockoutJS that applies bindings to dynamic HTML.",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "custom",
+    "binding",
+    "bindings",
+    "knockout",
+    "knockoutjs",
+    "dynamic",
+    "html",
+    "bind"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
