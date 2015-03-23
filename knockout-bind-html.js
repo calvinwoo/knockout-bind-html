@@ -6,15 +6,15 @@
     factory(root.ko);
   }
 }(this, function(ko) {
-  ko.bindingHandlers.bindHtml.preprocess = function(value, name, addBinding) {
-    addBinding('html', value);
-    return value;
-  };
-
   ko.bindingHandlers.bindHtml = {
     update: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
       ko.unwrap(valueAccessor());
       ko.applyBindingsToDescendants(bindingContext.$data, element);
     }
+  };
+
+  ko.bindingHandlers.bindHtml.preprocess = function(value, name, addBinding) {
+    addBinding('html', value);
+    return value;
   };
 }));
