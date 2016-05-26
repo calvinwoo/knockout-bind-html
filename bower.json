@@ -1,7 +1,7 @@
 {
   "name": "knockout-bind-html",
   "main": "knockout-bind-html.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/calvinwoo/knockout-bind-html",
   "authors": [
     "Calvin Woo <calvinwoo32@gmail.com>"

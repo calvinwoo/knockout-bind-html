@@ -1,6 +1,6 @@
 {
   "name": "knockout-bind-html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A custom binding for KnockoutJS that will dynamically present the specified HTML, like the standard binding, but will also process any new bindings that are included.",
   "main": "knockout-bind-html.js",
   "scripts": {
