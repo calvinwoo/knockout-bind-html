@@ -1,0 +1,29 @@
+{
+  "name": "knockout-bind-html",
+  "version": "1.0.0",
+  "description": "A custom binding for KnockoutJS that will dynamically present the specified HTML, like the standard binding, but will also process any new bindings that are included.",
+  "main": "knockout-bind-html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinwoo/knockout-bind-html.git"
+  },
+  "keywords": [
+    "custom",
+    "binding",
+    "bindings",
+    "knockout",
+    "knockoutjs",
+    "dynamic",
+    "html",
+    "bind"
+  ],
+  "author": "Calvin Woo <calvinwoo32@gmail.com> (http://calvinwoo.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinwoo/knockout-bind-html/issues"
+  },
+  "homepage": "https://github.com/calvinwoo/knockout-bind-html#readme"
+}
